@@ -1,0 +1,19 @@
+CREATE TRIGGER InsertDatePedido ON PEDIDO
+AFTER INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
+	DECLARE @DATA AS DATE;
+    BEGIN
+    BEGIN TRY
+	INSERT INTO PEDIDO
+		(DATA_P)
+		VALUES(@DATA)
+    END TRY
+    BEGIN CATCH
+        raiserror ('Nao foi possivel inserir a data', 16, 1);
+        ROLLBACK TRAN
+    END CATCH
+	END
+END
+GO
