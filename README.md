@@ -2,8 +2,8 @@
 Project for Relational Database Modeling 
 
 ### Diagram
-![SQL Server Diagram](/MyTransport_SQLServer_Diagram.jpg)
+![SQL Server Diagram](/Diagrams/MyTransport_SQLServer_Diagram.jpg)
 
 
 ### ERD
-![Entity-relation diagram](/projetoBD_DER_2.jpg)
+![Entity-relation diagram](/Diagrams/projetoBD_DER_2.jpg)
