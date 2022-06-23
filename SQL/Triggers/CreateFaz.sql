@@ -1,0 +1,22 @@
+CREATE TRIGGER createFaz ON intervencoes
+AFTER INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    DECLARE @NIF_MECA AS VARCHAR(9);
+	DECLARE @ID_intervenc AS INT;
+	DECLARE @MATRI_VEI AS INT;
+    SELECT @NIF_MECA = MECA_NIF, @ID_intervenc = ID, @MATRI_VEI = MATRI_VEICULO FROM inserted;
+    BEGIN
+    BEGIN TRY
+		INSERT INTO FAZ
+		(NIF_Mecanico, ID_Intervenc, Matri_Veiculo)
+		VALUES(@NIF_MECA,@ID_intervenc,@MATRI_VEI) 
+    END TRY
+    BEGIN CATCH
+        raiserror ('NAO FOI POSSIVEL INSERIR TABELA FAZ', 16, 1);
+        ROLLBACK TRAN
+    END CATCH
+	END
+END
+GO
