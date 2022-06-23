@@ -2,15 +2,16 @@
 --GO
 
 CREATE PROCEDURE addInterven
-    @ID INT,
     @MATRI_VEI INT,
     @MECA_NIF int,
 	@DESCRI varchar(50),
 	@PRECO DECIMAL(5,2),
-	@DATE_IN DATE,
-	@responseMessage varchar(10)
+
 AS
 BEGIN
+	DECLARE @ID AS INT
+	DECLARE @DATE_IN AS DATE
+	DECLARE @responseMessage AS VARCHAR(10)
     SET NOCOUNT ON
     BEGIN TRY
 		SET @DATE_IN = GETDATE();
