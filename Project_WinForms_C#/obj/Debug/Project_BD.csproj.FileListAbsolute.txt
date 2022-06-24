@@ -1,0 +1,11 @@
+C:\Users\Thiag\Desktop\BD\Project_BD\bin\Debug\Project_BD.exe.config
+C:\Users\Thiag\Desktop\BD\Project_BD\bin\Debug\Project_BD.exe
+C:\Users\Thiag\Desktop\BD\Project_BD\bin\Debug\Project_BD.pdb
+C:\Users\Thiag\Desktop\BD\Project_BD\obj\Debug\Project_BD.csproj.AssemblyReference.cache
+C:\Users\Thiag\Desktop\BD\Project_BD\obj\Debug\Project_BD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Thiag\Desktop\BD\Project_BD\obj\Debug\Project_BD.Properties.Resources.resources
+C:\Users\Thiag\Desktop\BD\Project_BD\obj\Debug\Project_BD.csproj.GenerateResource.cache
+C:\Users\Thiag\Desktop\BD\Project_BD\obj\Debug\Project_BD.csproj.CoreCompileInputs.cache
+C:\Users\Thiag\Desktop\BD\Project_BD\obj\Debug\Project_BD.exe
+C:\Users\Thiag\Desktop\BD\Project_BD\obj\Debug\Project_BD.pdb
+C:\Users\Thiag\Desktop\BD\Project_BD\obj\Debug\Project_BD.Form1.resources
